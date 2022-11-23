@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #303030;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    /* background-color: yellowgreen; */
+    background-color: #f7f7f7;
+    padding: 10px 0;
+    align-items: center;
+}
+.container{
+    /* background-color: blue; */
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    flex-basis: 15%;
+}
+.logo a{
+    text-decoration: none;
+    
+}
+.logo a h1{
+    color: #3590c5;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    /* width: 100%; */
+}
+span{}
+.menu{
+    flex-basis: 75%;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.menu ul li{}
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-weight: 400;
+    /* background-color: #303030; */
+}
+.menu ul li a:hover{}
+.card{
+    flex-basis: 10%;
+}
+.card ul{
+    display: flex;
+}
+.card ul li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 15px 10px ;
+}
+.card ul li i{
+    font-size: 18px;
+}
+footer{
+    background-color:#232830;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p{
+    color: aliceblue;
+    font-size: 16px;
+}
+footer p a{
+    color: #61b5ff; 
+    text-decoration: none;
+    f
+}
+footer p a:hover{
+    border-bottom: 3px solid #5a7fed;
+    padding-bottom: 2px;
+}
+   
+footer p a span{
+    /* color: #61b5ff; */
+}
